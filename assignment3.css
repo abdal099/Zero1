@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.solar{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.det{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    color: wheat;
+    text-align: center;
+    font-size: 100%;
+}
+.det h1{
+    margin-top: 150px;
+}
+p{
+    margin: 10px ;
+    font-size: 75%;
+}
